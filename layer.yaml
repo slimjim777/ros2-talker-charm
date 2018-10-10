@@ -1,0 +1,9 @@
+repo: https://github.com/slimjim777/ros2-talker.git
+includes:
+  - layer:basic
+  - layer:apt
+options:
+  apt:
+    packages:
+      - ros-bouncy-ros-base
+      - python3-colcon-common-extensions

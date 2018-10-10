@@ -1,0 +1,14 @@
+[Unit]
+Description=ROS2 talker service
+Wants=network-online.target
+
+[Service]
+ExecStart=/usr/bin/talker
+SyslogIdentifier=talker
+Restart=on-failure
+
+TimeoutStopSec=30
+Type=simple
+
+[Install]
+WantedBy=multi-user.target

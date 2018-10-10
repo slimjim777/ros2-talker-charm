@@ -1,0 +1,8 @@
+name: ros2-talker-james
+summary: ROS2 talker application
+maintainer: James Jesudason <james.jesudason@canonical.com>
+description: |
+  ROS2 talker application.
+display-name: ros2-talker-james
+tags:
+  - service
